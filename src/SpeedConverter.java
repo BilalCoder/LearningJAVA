@@ -1,5 +1,5 @@
 public class SpeedConverter {
-    //This is the oudemy code excercise
+    //This is the udemy code excercise
     public static long toMilesPerHour(double kilometersPerHour){
         return Math.round((1/1.609) * kilometersPerHour);
     }
