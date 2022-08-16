@@ -11,7 +11,7 @@
 //        isCatPlaying(false, 35); should return true since temperature is in range 25 - 35
 //
 //        NOTES
-//        The isCatPlaying method needs to be defined as public static ​like we have been doing so far in the course.
+//        The isCatPlaying method needs to be defined as public static like we have been doing so far in the course.
 //        Do not add the main method to the solution code.
 
 public class PlayingCat {
@@ -21,5 +21,10 @@ public class PlayingCat {
                 return true;
         }
         return false;
+
+//        could also write as:
+//        if (temperature >= 25) {
+//            return ((!summer && temperature <= 35) || (summer && temperature <= 45));
+//        }
     }
 }
