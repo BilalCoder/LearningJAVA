@@ -32,4 +32,18 @@ public class TeenNumberChecker {
         }
         return false;
     }
+
+//    People also wrote as:
+//    public static boolean hasTeen(int firstVal, int secondVal, int thirdVal) {
+//        if ((firstVal > 12 && firstVal < 20) || (secondVal > 12 && secondVal < 20) || (thirdVal > 12 && thirdVal < 20)) {
+//            return true;
+//        }
+//        return false;
+//    }
+//    public static boolean isTeen(int number) {
+//        if ((number > 12 && number < 20)) {
+//            return true;
+//        }
+//        return false;
+//    }
 }
