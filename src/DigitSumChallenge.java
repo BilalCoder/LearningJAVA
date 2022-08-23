@@ -1,5 +1,6 @@
 public class DigitSumChallenge {
     public static void main(String[] args) {
+        //the main method which calls sumDigits method
         System.out.println(sumDigits(123));
         System.out.println(sumDigits(0));
         System.out.println(sumDigits(9999999));
