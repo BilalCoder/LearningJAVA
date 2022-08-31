@@ -44,19 +44,21 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    public boolean depositFunds(double depositAmount) {
+    public void depositFunds(double depositAmount) {
         if (depositAmount > 0) {
             this.balance = this.balance + depositAmount;
-            return true;
+            System.out.println("Successfully deposited Rs" + depositAmount + ". Current balance: " + this.balance);
+            return;
         }
-        return false;
+        System.out.println("Invalid Deposit amount");
     }
 
-    public boolean withdrawFunds(double withdrawAmount) {
-        if (withdrawAmount > 0) {
+    public void withdrawFunds(double withdrawAmount) {
+        if (withdrawAmount > 0 && this.balance - withdrawAmount >= 0) {
             this.balance = this.balance - withdrawAmount;
-            return true;
+            System.out.println("Withdrawal of Rs" + withdrawAmount + " successfull. Current balance: " + this.balance);
+            return;
         }
-        return false;
+        System.out.println("Insufficient funds");
     }
 }

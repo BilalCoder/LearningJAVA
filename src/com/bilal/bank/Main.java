@@ -9,6 +9,7 @@ public class Main {
         ac101.setAccountNumber("10000101");
         ac101.depositFunds(10000);
         ac101.withdrawFunds(1000);
-        System.out.println(ac101.getBalance());
+        System.out.println("Balance availabe for " + ac101.getCustomerName() + ": " + ac101.getBalance());
+        ac101.withdrawFunds(10000);
     }
 }
