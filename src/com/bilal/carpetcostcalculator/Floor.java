@@ -1,15 +1,15 @@
 package com.bilal.carpetcostcalculator;
 
 public class Floor {
-    private int length, width;
+    private double length, width;
 
-    public Floor(int length, int width) {
+    public Floor(double length, double width) {
         this.length = length < 0 ? 0 : length;
         this.width = width < 0 ? 0 : width;
     }
 
     public double getArea() {
-        return length * width;
+        return this.length * this.width;
     }
 
 }
