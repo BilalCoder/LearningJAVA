@@ -1,7 +1,6 @@
 package com.bilal.arraylistchallenge;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class MobilePhone {
     private String myNumber;
