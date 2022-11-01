@@ -34,6 +34,16 @@ public class Switch {
                 break;
         }
 
+        char character = 'b';
+        switch (character) {
+            case 'B':
+                System.out.println("B");
+                break;
+            case 'b':
+                System.out.println("b");
+                break;
+        }
+
         String name = "Bilal";
         switch (name) {
             case "Aman":
