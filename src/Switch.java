@@ -33,5 +33,18 @@ public class Switch {
                 System.out.println("Was not 1,2,3, 4 or 5");
                 break;
         }
+
+        String name = "Bilal";
+        switch (name) {
+            case "Aman":
+                System.out.println("Aman");
+                break;
+            case "Bilal":
+                System.out.println("Bilal");
+                break;
+            case "bilal":
+                System.out.println("bilal");
+                break;
+        }
     }
 }
